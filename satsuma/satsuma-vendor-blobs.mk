@@ -73,50 +73,10 @@ PRODUCT_COPY_FILES += \
     vendor/semc/satsuma/proprietary/usr/semc/camera/STW05BN0.dat:system/usr/semc/camera/STW05BN0.dat \
     vendor/semc/satsuma/proprietary/usr/semc/camera/STW05BN0_BH6476.dat:system/usr/semc/camera/STW05BN0_BH6476.dat \
     vendor/semc/satsuma/proprietary/usr/semc/camera/STW05BN0_IMX072.dat:system/usr/semc/camera/STW05BN0_IMX072.dat \
-    vendor/semc/satsuma/proprietary/etc/firmware/bq27520_fw-0507_filever-0046_proj-mang_golden.bqfs:system/etc/firmware/bq27520_fw-0507_filever-0046_proj-mang_golden.bqfs \
-    vendor/semc/satsuma/proprietary/etc/firmware/fm_rx_init_1273.1.bts:system/etc/firmware/fm_rx_init_1273.1.bts \
-    vendor/semc/satsuma/proprietary/etc/firmware/fm_rx_init_1273.2.bts:system/etc/firmware/fm_rx_init_1273.2.bts \
-    vendor/semc/satsuma/proprietary/etc/firmware/fm_tx_init_1273.1.bts:system/etc/firmware/fm_tx_init_1273.1.bts \
-    vendor/semc/satsuma/proprietary/etc/firmware/fm_tx_init_1273.2.bts:system/etc/firmware/fm_tx_init_1273.2.bts \
-    vendor/semc/satsuma/proprietary/etc/firmware/fmc_init_1273.1.bts:system/etc/firmware/fmc_init_1273.1.bts \
-    vendor/semc/satsuma/proprietary/etc/firmware/fmc_init_1273.2.bts:system/etc/firmware/fmc_init_1273.2.bts \
-    vendor/semc/satsuma/proprietary/etc/firmware/TIInit_7.5.20.bts:system/etc/firmware/TIInit_7.5.20.bts \
-    vendor/semc/satsuma/proprietary/etc/firmware/TIInit_7.6.15.bts:system/etc/firmware/TIInit_7.6.15.bts \
-    vendor/semc/satsuma/proprietary/etc/firmware/vidc_720p_command_control.fw:system/etc/firmware/vidc_720p_command_control.fw \
-    vendor/semc/satsuma/proprietary/etc/firmware/vidc_720p_h263_dec_mc.fw:system/etc/firmware/vidc_720p_h263_dec_mc.fw \
-    vendor/semc/satsuma/proprietary/etc/firmware/vidc_720p_h264_dec_mc.fw:system/etc/firmware/vidc_720p_h264_dec_mc.fw \
-    vendor/semc/satsuma/proprietary/etc/firmware/vidc_720p_h264_enc_mc.fw:system/etc/firmware/vidc_720p_h264_enc_mc.fw \
-    vendor/semc/satsuma/proprietary/etc/firmware/vidc_720p_mp4_dec_mc.fw:system/etc/firmware/vidc_720p_mp4_dec_mc.fw \
-    vendor/semc/satsuma/proprietary/etc/firmware/vidc_720p_mp4_enc_mc.fw:system/etc/firmware/vidc_720p_mp4_enc_mc.fw \
-    vendor/semc/satsuma/proprietary/etc/firmware/vidc_720p_vc1_dec_mc.fw:system/etc/firmware/vidc_720p_vc1_dec_mc.fw \
-    vendor/semc/satsuma/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
-    vendor/semc/satsuma/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
-    vendor/semc/satsuma/proprietary/bin/nvimport:system/bin/nvimport \
-    vendor/semc/satsuma/proprietary/bin/calibrator:system/bin/calibrator \
-    vendor/semc/satsuma/proprietary/lib/libnl.so:system/lib/libnl.so \
-    vendor/semc/satsuma/proprietary/etc/firmware/wl1271-fw-multirole-roc.bin:system/etc/firmware/wl1271-fw-multirole-roc.bin \
-    vendor/semc/satsuma/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/semc/satsuma/proprietary/bin/bq275xx_fwloader:system/bin/bq275xx_fwloader \
+    vendor/semc/satsuma/proprietary/etc/firmware/bq27520_fw-0507_filever-0046_proj-mang_golden.bqfs:system/etc/firmware/bq27520_fw-0507_filever-0046_proj-mang_golden.bqfs \
+    vendor/semc/satsuma/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/semc/satsuma/proprietary/bin/akmd8975:system/bin/akmd8975 \
     vendor/semc/satsuma/proprietary/bin/chargemon:system/bin/chargemon \
     vendor/semc/satsuma/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
-    vendor/semc/satsuma/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
-    vendor/semc/satsuma/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
-    vendor/semc/satsuma/proprietary/lib/libgsl.so:system/lib/libgsl.so \
-    vendor/semc/satsuma/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
-    vendor/semc/satsuma/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
-    vendor/semc/satsuma/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
-    vendor/semc/satsuma/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
-    vendor/semc/satsuma/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
-    vendor/semc/satsuma/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-    vendor/semc/satsuma/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-    vendor/semc/satsuma/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
-    vendor/semc/satsuma/proprietary/etc/firmware/touch_satsuma_hitachi.hex:system/etc/firmware/touch_satsuma_hitachi.hex \
-    vendor/semc/satsuma/proprietary/lib/libanthal.so:system/lib/libanthal.so \
-    vendor/semc/satsuma/proprietary/etc/permissions/com.dsi.ant.antradio_library.xml:system/etc/permissions/com.dsi.ant.antradio_library.xml \
-    vendor/semc/satsuma/proprietary/etc/permissions/com.sonyericsson.suquashi.xml:system/etc/permissions/com.sonyericsson.suquashi.xml \
-    vendor/semc/satsuma/proprietary/app/antstatenotifer.apk:system/app/antstatenotifer.apk \
-    vendor/semc/satsuma/proprietary/app/AntHalService.apk:system/app/AntHalService.apk \
-    vendor/semc/satsuma/proprietary/app/antradioservice.apk:system/app/antradioservice.apk \
-    vendor/semc/satsuma/proprietary/framework/com.dsi.ant.antradio_library.jar:system/framework/com.dsi.ant.antradio_library.jar \
-    vendor/semc/satsuma/proprietary/framework/com.sonyericsson.suquashi.jar:system/framework/com.sonyericsson.suquashi.jar
+    vendor/semc/satsuma/proprietary/etc/firmware/touch_satsuma_hitachi.hex:system/etc/firmware/touch_satsuma_hitachi.hex
