@@ -27,12 +27,4 @@ PRODUCT_COPY_FILES += \
     vendor/semc/mogami-common/proprietary/etc/firmware/TIInit_7.5.20.bts:system/etc/firmware/TIInit_7.5.20.bts \
     vendor/semc/mogami-common/proprietary/etc/firmware/TIInit_7.6.15.bts:system/etc/firmware/TIInit_7.6.15.bts \
     vendor/semc/mogami-common/proprietary/etc/firmware/wl1271-fw-multirole-roc.bin:system/etc/firmware/wl1271-fw-multirole-roc.bin \
-    vendor/semc/mogami-common/proprietary/lib/libnl.so:system/lib/libnl.so \
-    vendor/semc/mogami-common/proprietary/app/AntHalService.apk:system/app/AntHalService.apk \
-    vendor/semc/mogami-common/proprietary/app/antradioservice.apk:system/app/antradioservice.apk \
-    vendor/semc/mogami-common/proprietary/app/antstatenotifer.apk:system/app/antstatenotifer.apk \
-    vendor/semc/mogami-common/proprietary/etc/permissions/com.dsi.ant.antradio_library.xml:system/etc/permissions/com.dsi.ant.antradio_library.xml \
-    vendor/semc/mogami-common/proprietary/etc/permissions/com.sonyericsson.suquashi.xml:system/etc/permissions/com.sonyericsson.suquashi.xml \
-    vendor/semc/mogami-common/proprietary/framework/com.dsi.ant.antradio_library.jar:system/framework/com.dsi.ant.antradio_library.jar \
-    vendor/semc/mogami-common/proprietary/framework/com.sonyericsson.suquashi.jar:system/framework/com.sonyericsson.suquashi.jar \
-    vendor/semc/mogami-common/proprietary/lib/libanthal.so:system/lib/libanthal.so
+    vendor/semc/mogami-common/proprietary/lib/libnl.so:system/lib/libnl.so
