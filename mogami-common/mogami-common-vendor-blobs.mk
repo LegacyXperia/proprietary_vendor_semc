@@ -17,7 +17,9 @@
 PRODUCT_COPY_FILES += \
     vendor/semc/mogami-common/proprietary/bin/nvimport:system/bin/nvimport \
     vendor/semc/mogami-common/proprietary/bin/calibrator:system/bin/calibrator \
+    vendor/semc/mogami-common/proprietary/etc/firmware/fmc_ch8_1273.2.bts:system/etc/firmware/fmc_ch8_1273.2.bts \
     vendor/semc/mogami-common/proprietary/etc/firmware/fmc_init_1273.2.bts:system/etc/firmware/fmc_init_1273.2.bts \
+    vendor/semc/mogami-common/proprietary/etc/firmware/fm_rx_ch8_1273.2.bts:system/etc/firmware/fm_rx_ch8_1273.2.bts \
     vendor/semc/mogami-common/proprietary/etc/firmware/fm_rx_init_1273.2.bts:system/etc/firmware/fm_rx_init_1273.2.bts \
     vendor/semc/mogami-common/proprietary/etc/firmware/fm_tx_ch8_1273.1.bts:system/etc/firmware/fm_tx_ch8_1273.1.bts \
     vendor/semc/mogami-common/proprietary/etc/firmware/fm_tx_ch8_1273.2.bts:system/etc/firmware/fm_tx_ch8_1273.2.bts \
