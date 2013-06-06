@@ -47,7 +47,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/haida/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/semc/haida/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/semc/haida/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/semc/haida/proprietary/lib/hw/camera.semc.so:system/lib/hw/camera.semc.so \
+    vendor/semc/haida/proprietary/lib/hw/vendor-camera.semc.so:system/lib/hw/vendor-camera.semc.so \
     vendor/semc/haida/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/semc/haida/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/semc/haida/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \

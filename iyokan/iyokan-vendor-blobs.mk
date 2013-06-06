@@ -47,7 +47,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/iyokan/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/semc/iyokan/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/semc/iyokan/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/semc/iyokan/proprietary/lib/hw/camera.semc.so:system/lib/hw/camera.semc.so \
+    vendor/semc/iyokan/proprietary/lib/hw/vendor-camera.semc.so:system/lib/hw/vendor-camera.semc.so \
     vendor/semc/iyokan/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/semc/iyokan/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/semc/iyokan/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \

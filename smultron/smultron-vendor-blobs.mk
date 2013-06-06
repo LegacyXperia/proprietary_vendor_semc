@@ -47,7 +47,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/smultron/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/semc/smultron/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/semc/smultron/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/semc/smultron/proprietary/lib/hw/camera.semc.so:system/lib/hw/camera.semc.so \
+    vendor/semc/smultron/proprietary/lib/hw/vendor-camera.semc.so:system/lib/hw/vendor-camera.semc.so \
     vendor/semc/smultron/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/semc/smultron/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/semc/smultron/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \

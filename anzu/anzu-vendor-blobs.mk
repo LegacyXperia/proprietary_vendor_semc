@@ -47,7 +47,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/anzu/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/semc/anzu/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/semc/anzu/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/semc/anzu/proprietary/lib/hw/camera.semc.so:system/lib/hw/camera.semc.so \
+    vendor/semc/anzu/proprietary/lib/hw/vendor-camera.semc.so:system/lib/hw/vendor-camera.semc.so \
     vendor/semc/anzu/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/semc/anzu/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/semc/anzu/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
