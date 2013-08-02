@@ -24,5 +24,4 @@ PRODUCT_COPY_FILES += \
     vendor/semc/mogami-common/proprietary/etc/firmware/fm_tx_ch8_1273.2.bts:system/etc/firmware/fm_tx_ch8_1273.2.bts \
     vendor/semc/mogami-common/proprietary/etc/firmware/fm_tx_init_1273.2.bts:system/etc/firmware/fm_tx_init_1273.2.bts \
     vendor/semc/mogami-common/proprietary/etc/firmware/TIInit_7.6.15.bts:system/etc/firmware/TIInit_7.6.15.bts \
-    vendor/semc/mogami-common/proprietary/etc/firmware/ti-connectivity/wl127x-fw-4-sr.bin:system/etc/firmware/ti-connectivity/wl127x-fw-4-sr.bin \
-    vendor/semc/mogami-common/proprietary/lib/libnl.so:system/lib/libnl.so
+    vendor/semc/mogami-common/proprietary/etc/firmware/ti-connectivity/wl127x-fw-4-sr.bin:system/etc/firmware/ti-connectivity/wl127x-fw-4-sr.bin
