@@ -85,6 +85,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/urushi/proprietary/bin/akmd8975:system/bin/akmd8975 \
     vendor/semc/urushi/proprietary/bin/chargemon:system/bin/chargemon \
     vendor/semc/urushi/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
+    vendor/semc/urushi/proprietary/bin/clearpad_fwloader:system/bin/clearpad_fwloader \
     vendor/semc/urushi/proprietary/etc/firmware/touch_module_id_0x01.img:system/etc/firmware/touch_module_id_0x01.img \
     vendor/semc/urushi/proprietary/etc/firmware/touch_module_id_0x02.img:system/etc/firmware/touch_module_id_0x02.img \
     vendor/semc/urushi/proprietary/etc/firmware/touch_module_id_0x11.img:system/etc/firmware/touch_module_id_0x11.img
