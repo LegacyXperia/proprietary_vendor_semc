@@ -55,7 +55,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/zeus/proprietary/bin/akmd8975:system/bin/akmd8975 \
     vendor/semc/zeus/proprietary/bin/chargemon:system/bin/chargemon \
     vendor/semc/zeus/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
-    vendor/semc/zeus/proprietary/bin/lidswitchd:system/bin/lidswitchd \
     vendor/semc/zeus/proprietary/etc/permissions/com.playstation.playstationcertified.xml:system/etc/permissions/com.playstation.playstationcertified.xml \
     vendor/semc/zeus/proprietary/etc/permissions/com.sonyericsson.android.xperiaplaycertified.xml:system/etc/permissions/com.sonyericsson.android.xperiaplaycertified.xml \
     vendor/semc/zeus/proprietary/etc/permissions/com.sony.android.playstationcertified.xml:system/etc/permissions/com.sony.android.playstationcertified.xml \

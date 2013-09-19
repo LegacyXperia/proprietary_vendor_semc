@@ -54,5 +54,4 @@ PRODUCT_COPY_FILES += \
     vendor/semc/phoenix/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/semc/phoenix/proprietary/bin/akmd8975:system/bin/akmd8975 \
     vendor/semc/phoenix/proprietary/bin/chargemon:system/bin/chargemon \
-    vendor/semc/phoenix/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
-    vendor/semc/phoenix/proprietary/bin/lidswitchd:system/bin/lidswitchd
+    vendor/semc/phoenix/proprietary/lib/libmiscta.so:system/lib/libmiscta.so
