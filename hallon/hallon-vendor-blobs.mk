@@ -79,8 +79,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/hallon/proprietary/usr/semc/camera/SOD08BN1.dat:system/usr/semc/camera/SOD08BN1.dat \
     vendor/semc/hallon/proprietary/usr/semc/camera/SOD08BN1_DW9714.dat:system/usr/semc/camera/SOD08BN1_DW9714.dat \
     vendor/semc/hallon/proprietary/usr/semc/camera/SOD08BN1_IMX105.dat:system/usr/semc/camera/SOD08BN1_IMX105.dat \
-    vendor/semc/hallon/proprietary/bin/bq275xx_fwloader:system/bin/bq275xx_fwloader \
-    vendor/semc/hallon/proprietary/etc/firmware/bq27520_fw-0507_filever-0112_proj-hall_golden.bqfs:system/etc/firmware/bq27520_fw-0507_filever-0112_proj-hall_golden.bqfs \
     vendor/semc/hallon/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/semc/hallon/proprietary/bin/akmd8975:system/bin/akmd8975 \
     vendor/semc/hallon/proprietary/bin/touchd:system/bin/touchd \

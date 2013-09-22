@@ -86,8 +86,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/haida/proprietary/usr/semc/camera/STW05BN0_BH6476.dat:system/usr/semc/camera/STW05BN0_BH6476.dat \
     vendor/semc/haida/proprietary/usr/semc/camera/STW05BN0.dat:system/usr/semc/camera/STW05BN0.dat \
     vendor/semc/haida/proprietary/usr/semc/camera/STW05BN0_IMX072.dat:system/usr/semc/camera/STW05BN0_IMX072.dat \
-    vendor/semc/haida/proprietary/bin/bq275xx_fwloader:system/bin/bq275xx_fwloader \
-    vendor/semc/haida/proprietary/etc/firmware/bq27520_fw-0507_filever-0112_proj-hall_golden.bqfs:system/etc/firmware/bq27520_fw-0507_filever-0112_proj-hall_golden.bqfs \
     vendor/semc/haida/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/semc/haida/proprietary/bin/akmd8975:system/bin/akmd8975 \
     vendor/semc/haida/proprietary/bin/touchd:system/bin/touchd \
