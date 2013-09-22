@@ -73,8 +73,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/coconut/proprietary/usr/semc/camera/STW05BN0.dat:system/usr/semc/camera/STW05BN0.dat \
     vendor/semc/coconut/proprietary/usr/semc/camera/STW05BN0_BH6476.dat:system/usr/semc/camera/STW05BN0_BH6476.dat \
     vendor/semc/coconut/proprietary/usr/semc/camera/STW05BN0_IMX072.dat:system/usr/semc/camera/STW05BN0_IMX072.dat \
-    vendor/semc/coconut/proprietary/bin/bq275xx_fwloader:system/bin/bq275xx_fwloader \
-    vendor/semc/coconut/proprietary/etc/firmware/bq27520_fw-0507_filever-0046_proj-mang_golden.bqfs:system/etc/firmware/bq27520_fw-0507_filever-0046_proj-mang_golden.bqfs \
     vendor/semc/coconut/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/semc/coconut/proprietary/bin/akmd8975:system/bin/akmd8975 \
     vendor/semc/coconut/proprietary/bin/chargemon:system/bin/chargemon \

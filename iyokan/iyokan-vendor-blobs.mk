@@ -79,8 +79,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/iyokan/proprietary/usr/semc/camera/LGI08BN1_DW9714.dat:system/usr/semc/camera/LGI08BN1_DW9714.dat \
     vendor/semc/iyokan/proprietary/usr/semc/camera/LGI08BN0.dat:system/usr/semc/camera/LGI08BN0.dat \
     vendor/semc/iyokan/proprietary/usr/semc/camera/LGI08BN1_IMX105.dat:system/usr/semc/camera/LGI08BN1_IMX105.dat \
-    vendor/semc/iyokan/proprietary/bin/bq275xx_fwloader:system/bin/bq275xx_fwloader \
-    vendor/semc/iyokan/proprietary/etc/firmware/bq27520_fw-0507_filever-0112_proj-hall_golden.bqfs:system/etc/firmware/bq27520_fw-0507_filever-0112_proj-hall_golden.bqfs \
     vendor/semc/iyokan/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/semc/iyokan/proprietary/bin/akmd8975:system/bin/akmd8975 \
     vendor/semc/iyokan/proprietary/bin/chargemon:system/bin/chargemon \

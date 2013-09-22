@@ -73,8 +73,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/smultron/proprietary/usr/semc/camera/STW05BN0.dat:system/usr/semc/camera/STW05BN0.dat \
     vendor/semc/smultron/proprietary/usr/semc/camera/STW05BN0_BH6476.dat:system/usr/semc/camera/STW05BN0_BH6476.dat \
     vendor/semc/smultron/proprietary/usr/semc/camera/STW05BN0_IMX072.dat:system/usr/semc/camera/STW05BN0_IMX072.dat \
-    vendor/semc/smultron/proprietary/bin/bq275xx_fwloader:system/bin/bq275xx_fwloader \
-    vendor/semc/smultron/proprietary/etc/firmware/bq27520_fw-0507_filever-0046_proj-mang_golden.bqfs:system/etc/firmware/bq27520_fw-0507_filever-0046_proj-mang_golden.bqfs \
     vendor/semc/smultron/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/semc/smultron/proprietary/bin/akmd8975:system/bin/akmd8975 \
     vendor/semc/smultron/proprietary/bin/chargemon:system/bin/chargemon \
