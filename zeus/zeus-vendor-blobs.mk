@@ -19,38 +19,38 @@ PRODUCT_COPY_FILES := \
     vendor/semc/zeus/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so
 
 PRODUCT_COPY_FILES += \
+    vendor/semc/zeus/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/semc/zeus/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/semc/zeus/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/semc/zeus/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/semc/zeus/proprietary/lib/libauth.so:system/lib/libauth.so \
     vendor/semc/zeus/proprietary/lib/libcm.so:system/lib/libcm.so \
     vendor/semc/zeus/proprietary/lib/libdiag.so:system/lib/libdiag.so \
     vendor/semc/zeus/proprietary/lib/libdll.so:system/lib/libdll.so \
+    vendor/semc/zeus/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
     vendor/semc/zeus/proprietary/lib/libdsm.so:system/lib/libdsm.so \
     vendor/semc/zeus/proprietary/lib/libdss.so:system/lib/libdss.so \
+    vendor/semc/zeus/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
     vendor/semc/zeus/proprietary/lib/libgsdi_exp.so:system/lib/libgsdi_exp.so \
     vendor/semc/zeus/proprietary/lib/libgstk_exp.so:system/lib/libgstk_exp.so \
+    vendor/semc/zeus/proprietary/lib/libidl.so:system/lib/libidl.so \
     vendor/semc/zeus/proprietary/lib/libmmgsdilib.so:system/lib/libmmgsdilib.so \
+    vendor/semc/zeus/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/semc/zeus/proprietary/lib/libnv.so:system/lib/libnv.so \
     vendor/semc/zeus/proprietary/lib/liboem_rapi.so:system/lib/liboem_rapi.so \
     vendor/semc/zeus/proprietary/lib/liboncrpc.so:system/lib/liboncrpc.so \
     vendor/semc/zeus/proprietary/lib/libpbmlib.so:system/lib/libpbmlib.so \
+    vendor/semc/zeus/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/semc/zeus/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/semc/zeus/proprietary/lib/libqueue.so:system/lib/libqueue.so \
-    vendor/semc/zeus/proprietary/lib/libuim.so:system/lib/libuim.so \
+    vendor/semc/zeus/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/semc/zeus/proprietary/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
+    vendor/semc/zeus/proprietary/lib/libuim.so:system/lib/libuim.so \
     vendor/semc/zeus/proprietary/lib/libwms.so:system/lib/libwms.so \
     vendor/semc/zeus/proprietary/lib/libwmsts.so:system/lib/libwmsts.so \
-    vendor/semc/zeus/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
-    vendor/semc/zeus/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
-    vendor/semc/zeus/proprietary/lib/libidl.so:system/lib/libidl.so \
-    vendor/semc/zeus/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
-    vendor/semc/zeus/proprietary/lib/libqdp.so:system/lib/libqdp.so \
-    vendor/semc/zeus/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/semc/zeus/proprietary/lib/hw/vendor-camera.semc.so:system/lib/hw/vendor-camera.semc.so \
-    vendor/semc/zeus/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
-    vendor/semc/zeus/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/semc/zeus/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
+    vendor/semc/zeus/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
+    vendor/semc/zeus/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/semc/zeus/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/semc/zeus/proprietary/bin/akmd8975:system/bin/akmd8975 \
     vendor/semc/zeus/proprietary/bin/chargemon:system/bin/chargemon \

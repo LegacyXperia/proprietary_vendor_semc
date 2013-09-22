@@ -19,51 +19,51 @@ PRODUCT_COPY_FILES := \
     vendor/semc/anzu/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so
 
 PRODUCT_COPY_FILES += \
-    vendor/semc/anzu/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/semc/anzu/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/semc/anzu/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/semc/anzu/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/semc/anzu/proprietary/lib/libauth.so:system/lib/libauth.so \
     vendor/semc/anzu/proprietary/lib/libcm.so:system/lib/libcm.so \
     vendor/semc/anzu/proprietary/lib/libdiag.so:system/lib/libdiag.so \
     vendor/semc/anzu/proprietary/lib/libdll.so:system/lib/libdll.so \
+    vendor/semc/anzu/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
     vendor/semc/anzu/proprietary/lib/libdsm.so:system/lib/libdsm.so \
     vendor/semc/anzu/proprietary/lib/libdss.so:system/lib/libdss.so \
+    vendor/semc/anzu/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
     vendor/semc/anzu/proprietary/lib/libgsdi_exp.so:system/lib/libgsdi_exp.so \
     vendor/semc/anzu/proprietary/lib/libgstk_exp.so:system/lib/libgstk_exp.so \
+    vendor/semc/anzu/proprietary/lib/libidl.so:system/lib/libidl.so \
     vendor/semc/anzu/proprietary/lib/libmmgsdilib.so:system/lib/libmmgsdilib.so \
+    vendor/semc/anzu/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/semc/anzu/proprietary/lib/libnv.so:system/lib/libnv.so \
     vendor/semc/anzu/proprietary/lib/liboem_rapi.so:system/lib/liboem_rapi.so \
     vendor/semc/anzu/proprietary/lib/liboncrpc.so:system/lib/liboncrpc.so \
     vendor/semc/anzu/proprietary/lib/libpbmlib.so:system/lib/libpbmlib.so \
+    vendor/semc/anzu/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/semc/anzu/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/semc/anzu/proprietary/lib/libqueue.so:system/lib/libqueue.so \
-    vendor/semc/anzu/proprietary/lib/libuim.so:system/lib/libuim.so \
+    vendor/semc/anzu/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/semc/anzu/proprietary/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
+    vendor/semc/anzu/proprietary/lib/libuim.so:system/lib/libuim.so \
     vendor/semc/anzu/proprietary/lib/libwms.so:system/lib/libwms.so \
     vendor/semc/anzu/proprietary/lib/libwmsts.so:system/lib/libwmsts.so \
-    vendor/semc/anzu/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
-    vendor/semc/anzu/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
-    vendor/semc/anzu/proprietary/lib/libidl.so:system/lib/libidl.so \
-    vendor/semc/anzu/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
-    vendor/semc/anzu/proprietary/lib/libqdp.so:system/lib/libqdp.so \
-    vendor/semc/anzu/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/semc/anzu/proprietary/lib/hw/vendor-camera.semc.so:system/lib/hw/vendor-camera.semc.so \
-    vendor/semc/anzu/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
-    vendor/semc/anzu/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
-    vendor/semc/anzu/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
-    vendor/semc/anzu/proprietary/lib/libcamera_clientsemc.so:system/lib/libcamera_clientsemc.so \
     vendor/semc/anzu/proprietary/lib/libcald_client.so:system/lib/libcald_client.so \
     vendor/semc/anzu/proprietary/lib/libcald_debugger.so:system/lib/libcald_debugger.so \
     vendor/semc/anzu/proprietary/lib/libcald_hal.so:system/lib/libcald_hal.so \
     vendor/semc/anzu/proprietary/lib/libcald_imageutil.so:system/lib/libcald_imageutil.so \
     vendor/semc/anzu/proprietary/lib/libcald_pal.so:system/lib/libcald_pal.so \
     vendor/semc/anzu/proprietary/lib/libcald_server.so:system/lib/libcald_server.so \
-    vendor/semc/anzu/proprietary/lib/libface.so:system/lib/libface.so \
-    vendor/semc/anzu/proprietary/lib/libgemini.so:system/lib/libgemini.so \
+    vendor/semc/anzu/proprietary/lib/libcamera_clientsemc.so:system/lib/libcamera_clientsemc.so \
     vendor/semc/anzu/proprietary/lib/libcameraextensionclient.so:system/lib/libcameraextensionclient.so \
     vendor/semc/anzu/proprietary/lib/libcameraextensionjni.so:system/lib/libcameraextensionjni.so \
     vendor/semc/anzu/proprietary/lib/libcameraextensionservice.so:system/lib/libcameraextensionservice.so \
     vendor/semc/anzu/proprietary/lib/libcameralight.so:system/lib/libcameralight.so \
+    vendor/semc/anzu/proprietary/lib/libface.so:system/lib/libface.so \
+    vendor/semc/anzu/proprietary/lib/libgemini.so:system/lib/libgemini.so \
+    vendor/semc/anzu/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
+    vendor/semc/anzu/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
+    vendor/semc/anzu/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/semc/anzu/proprietary/usr/semc/camera/LGI08BN0.dat:system/usr/semc/camera/LGI08BN0.dat \
     vendor/semc/anzu/proprietary/usr/semc/camera/LGI08BN0_DW9714.dat:system/usr/semc/camera/LGI08BN0_DW9714.dat \
     vendor/semc/anzu/proprietary/usr/semc/camera/LGI08BN0_IMX105.dat:system/usr/semc/camera/LGI08BN0_IMX105.dat \
@@ -77,10 +77,14 @@ PRODUCT_COPY_FILES += \
     vendor/semc/anzu/proprietary/usr/semc/camera/SOD08BN1.dat:system/usr/semc/camera/SOD08BN1.dat \
     vendor/semc/anzu/proprietary/usr/semc/camera/SOD08BN1_DW9714.dat:system/usr/semc/camera/SOD08BN1_DW9714.dat \
     vendor/semc/anzu/proprietary/usr/semc/camera/SOD08BN1_IMX105.dat:system/usr/semc/camera/SOD08BN1_IMX105.dat \
+    vendor/semc/anzu/proprietary/bin/nv_param_loader:system/bin/nv_param_loader \
+    vendor/semc/anzu/proprietary/bin/nvcustomizer:system/bin/nvcustomizer \
+    vendor/semc/anzu/proprietary/bin/nvimport:system/bin/nvimport \
     vendor/semc/anzu/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/semc/anzu/proprietary/bin/akmd8975:system/bin/akmd8975 \
     vendor/semc/anzu/proprietary/bin/chargemon:system/bin/chargemon \
     vendor/semc/anzu/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
+    vendor/semc/anzu/proprietary/bin/cy8ctma300_fwloader:system/bin/cy8ctma300_fwloader \
     vendor/semc/anzu/proprietary/etc/firmware/touch_anzu_sharp_type1.hex:system/etc/firmware/touch_anzu_sharp_type1.hex \
     vendor/semc/anzu/proprietary/etc/firmware/touch_anzu_sharp_type2.hex:system/etc/firmware/touch_anzu_sharp_type2.hex \
     vendor/semc/anzu/proprietary/etc/firmware/touch_anzu_sony_type1.hex:system/etc/firmware/touch_anzu_sony_type1.hex \
