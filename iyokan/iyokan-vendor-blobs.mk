@@ -19,68 +19,72 @@ PRODUCT_COPY_FILES := \
     vendor/semc/iyokan/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so
 
 PRODUCT_COPY_FILES += \
+    vendor/semc/iyokan/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/semc/iyokan/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/semc/iyokan/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/semc/iyokan/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/semc/iyokan/proprietary/lib/libauth.so:system/lib/libauth.so \
     vendor/semc/iyokan/proprietary/lib/libcm.so:system/lib/libcm.so \
     vendor/semc/iyokan/proprietary/lib/libdiag.so:system/lib/libdiag.so \
     vendor/semc/iyokan/proprietary/lib/libdll.so:system/lib/libdll.so \
+    vendor/semc/iyokan/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
     vendor/semc/iyokan/proprietary/lib/libdsm.so:system/lib/libdsm.so \
     vendor/semc/iyokan/proprietary/lib/libdss.so:system/lib/libdss.so \
+    vendor/semc/iyokan/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
     vendor/semc/iyokan/proprietary/lib/libgsdi_exp.so:system/lib/libgsdi_exp.so \
     vendor/semc/iyokan/proprietary/lib/libgstk_exp.so:system/lib/libgstk_exp.so \
+    vendor/semc/iyokan/proprietary/lib/libidl.so:system/lib/libidl.so \
     vendor/semc/iyokan/proprietary/lib/libmmgsdilib.so:system/lib/libmmgsdilib.so \
+    vendor/semc/iyokan/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/semc/iyokan/proprietary/lib/libnv.so:system/lib/libnv.so \
     vendor/semc/iyokan/proprietary/lib/liboem_rapi.so:system/lib/liboem_rapi.so \
     vendor/semc/iyokan/proprietary/lib/liboncrpc.so:system/lib/liboncrpc.so \
     vendor/semc/iyokan/proprietary/lib/libpbmlib.so:system/lib/libpbmlib.so \
+    vendor/semc/iyokan/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/semc/iyokan/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/semc/iyokan/proprietary/lib/libqueue.so:system/lib/libqueue.so \
-    vendor/semc/iyokan/proprietary/lib/libuim.so:system/lib/libuim.so \
+    vendor/semc/iyokan/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/semc/iyokan/proprietary/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
+    vendor/semc/iyokan/proprietary/lib/libuim.so:system/lib/libuim.so \
     vendor/semc/iyokan/proprietary/lib/libwms.so:system/lib/libwms.so \
     vendor/semc/iyokan/proprietary/lib/libwmsts.so:system/lib/libwmsts.so \
-    vendor/semc/iyokan/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
-    vendor/semc/iyokan/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
-    vendor/semc/iyokan/proprietary/lib/libidl.so:system/lib/libidl.so \
-    vendor/semc/iyokan/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
-    vendor/semc/iyokan/proprietary/lib/libqdp.so:system/lib/libqdp.so \
-    vendor/semc/iyokan/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/semc/iyokan/proprietary/lib/hw/vendor-camera.semc.so:system/lib/hw/vendor-camera.semc.so \
-    vendor/semc/iyokan/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
-    vendor/semc/iyokan/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
-    vendor/semc/iyokan/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
-    vendor/semc/iyokan/proprietary/lib/libcamera_clientsemc.so:system/lib/libcamera_clientsemc.so \
     vendor/semc/iyokan/proprietary/lib/libcald_client.so:system/lib/libcald_client.so \
     vendor/semc/iyokan/proprietary/lib/libcald_debugger.so:system/lib/libcald_debugger.so \
     vendor/semc/iyokan/proprietary/lib/libcald_hal.so:system/lib/libcald_hal.so \
     vendor/semc/iyokan/proprietary/lib/libcald_imageutil.so:system/lib/libcald_imageutil.so \
     vendor/semc/iyokan/proprietary/lib/libcald_pal.so:system/lib/libcald_pal.so \
     vendor/semc/iyokan/proprietary/lib/libcald_server.so:system/lib/libcald_server.so \
-    vendor/semc/iyokan/proprietary/lib/libface.so:system/lib/libface.so \
-    vendor/semc/iyokan/proprietary/lib/libgemini.so:system/lib/libgemini.so \
+    vendor/semc/iyokan/proprietary/lib/libcamera_clientsemc.so:system/lib/libcamera_clientsemc.so \
     vendor/semc/iyokan/proprietary/lib/libcameraextensionclient.so:system/lib/libcameraextensionclient.so \
     vendor/semc/iyokan/proprietary/lib/libcameraextensionjni.so:system/lib/libcameraextensionjni.so \
     vendor/semc/iyokan/proprietary/lib/libcameraextensionservice.so:system/lib/libcameraextensionservice.so \
     vendor/semc/iyokan/proprietary/lib/libcameralight.so:system/lib/libcameralight.so \
-    vendor/semc/iyokan/proprietary/usr/semc/camera/LGI08BN1.dat:system/usr/semc/camera/LGI08BN1.dat \
-    vendor/semc/iyokan/proprietary/usr/semc/camera/SOD08BN1.dat:system/usr/semc/camera/SOD08BN1.dat \
-    vendor/semc/iyokan/proprietary/usr/semc/camera/SOD08BN0.dat:system/usr/semc/camera/SOD08BN0.dat \
-    vendor/semc/iyokan/proprietary/usr/semc/camera/SOD08BN0_IMX073.dat:system/usr/semc/camera/SOD08BN0_IMX073.dat \
-    vendor/semc/iyokan/proprietary/usr/semc/camera/LGI08BN0_IMX105.dat:system/usr/semc/camera/LGI08BN0_IMX105.dat \
-    vendor/semc/iyokan/proprietary/usr/semc/camera/LM3560_02_flash.dat:system/usr/semc/camera/LM3560_02_flash.dat \
-    vendor/semc/iyokan/proprietary/usr/semc/camera/LGI08BN0_DW9714.dat:system/usr/semc/camera/LGI08BN0_DW9714.dat \
-    vendor/semc/iyokan/proprietary/usr/semc/camera/SOD08BN1_DW9714.dat:system/usr/semc/camera/SOD08BN1_DW9714.dat \
-    vendor/semc/iyokan/proprietary/usr/semc/camera/APT00YP0_MT9V144.dat:system/usr/semc/camera/APT00YP0_MT9V144.dat \
+    vendor/semc/iyokan/proprietary/lib/libface.so:system/lib/libface.so \
+    vendor/semc/iyokan/proprietary/lib/libgemini.so:system/lib/libgemini.so \
+    vendor/semc/iyokan/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
+    vendor/semc/iyokan/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
+    vendor/semc/iyokan/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/semc/iyokan/proprietary/usr/semc/camera/APT00YP0.dat:system/usr/semc/camera/APT00YP0.dat \
-    vendor/semc/iyokan/proprietary/usr/semc/camera/SOD08BN1_IMX105.dat:system/usr/semc/camera/SOD08BN1_IMX105.dat \
-    vendor/semc/iyokan/proprietary/usr/semc/camera/SOD08BN0_DW9714.dat:system/usr/semc/camera/SOD08BN0_DW9714.dat \
-    vendor/semc/iyokan/proprietary/usr/semc/camera/LGI08BN1_DW9714.dat:system/usr/semc/camera/LGI08BN1_DW9714.dat \
+    vendor/semc/iyokan/proprietary/usr/semc/camera/APT00YP0_MT9V144.dat:system/usr/semc/camera/APT00YP0_MT9V144.dat \
     vendor/semc/iyokan/proprietary/usr/semc/camera/LGI08BN0.dat:system/usr/semc/camera/LGI08BN0.dat \
+    vendor/semc/iyokan/proprietary/usr/semc/camera/LGI08BN0_DW9714.dat:system/usr/semc/camera/LGI08BN0_DW9714.dat \
+    vendor/semc/iyokan/proprietary/usr/semc/camera/LGI08BN0_IMX105.dat:system/usr/semc/camera/LGI08BN0_IMX105.dat \
+    vendor/semc/iyokan/proprietary/usr/semc/camera/LGI08BN1.dat:system/usr/semc/camera/LGI08BN1.dat \
+    vendor/semc/iyokan/proprietary/usr/semc/camera/LGI08BN1_DW9714.dat:system/usr/semc/camera/LGI08BN1_DW9714.dat \
     vendor/semc/iyokan/proprietary/usr/semc/camera/LGI08BN1_IMX105.dat:system/usr/semc/camera/LGI08BN1_IMX105.dat \
+    vendor/semc/iyokan/proprietary/usr/semc/camera/LM3560_02_flash.dat:system/usr/semc/camera/LM3560_02_flash.dat \
+    vendor/semc/iyokan/proprietary/usr/semc/camera/SOD08BN0.dat:system/usr/semc/camera/SOD08BN0.dat \
+    vendor/semc/iyokan/proprietary/usr/semc/camera/SOD08BN0_DW9714.dat:system/usr/semc/camera/SOD08BN0_DW9714.dat \
+    vendor/semc/iyokan/proprietary/usr/semc/camera/SOD08BN0_IMX073.dat:system/usr/semc/camera/SOD08BN0_IMX073.dat \
+    vendor/semc/iyokan/proprietary/usr/semc/camera/SOD08BN1.dat:system/usr/semc/camera/SOD08BN1.dat \
+    vendor/semc/iyokan/proprietary/usr/semc/camera/SOD08BN1_DW9714.dat:system/usr/semc/camera/SOD08BN1_DW9714.dat \
+    vendor/semc/iyokan/proprietary/usr/semc/camera/SOD08BN1_IMX105.dat:system/usr/semc/camera/SOD08BN1_IMX105.dat \
+    vendor/semc/iyokan/proprietary/bin/nv_param_loader:system/bin/nv_param_loader \
+    vendor/semc/iyokan/proprietary/bin/nvcustomizer:system/bin/nvcustomizer \
+    vendor/semc/iyokan/proprietary/bin/nvimport:system/bin/nvimport \
     vendor/semc/iyokan/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/semc/iyokan/proprietary/bin/akmd8975:system/bin/akmd8975 \
     vendor/semc/iyokan/proprietary/bin/chargemon:system/bin/chargemon \
     vendor/semc/iyokan/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
+    vendor/semc/iyokan/proprietary/bin/cyttsp_fwloader:system/bin/cyttsp_fwloader \
     vendor/semc/iyokan/proprietary/etc/firmware/touch_iyokan_ttsp.hex:system/etc/firmware/touch_iyokan_ttsp.hex

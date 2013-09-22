@@ -19,51 +19,51 @@ PRODUCT_COPY_FILES := \
     vendor/semc/satsuma/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so
 
 PRODUCT_COPY_FILES += \
-    vendor/semc/satsuma/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/semc/satsuma/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/semc/satsuma/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/semc/satsuma/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/semc/satsuma/proprietary/lib/libauth.so:system/lib/libauth.so \
     vendor/semc/satsuma/proprietary/lib/libcm.so:system/lib/libcm.so \
     vendor/semc/satsuma/proprietary/lib/libdiag.so:system/lib/libdiag.so \
     vendor/semc/satsuma/proprietary/lib/libdll.so:system/lib/libdll.so \
+    vendor/semc/satsuma/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
     vendor/semc/satsuma/proprietary/lib/libdsm.so:system/lib/libdsm.so \
     vendor/semc/satsuma/proprietary/lib/libdss.so:system/lib/libdss.so \
+    vendor/semc/satsuma/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
     vendor/semc/satsuma/proprietary/lib/libgsdi_exp.so:system/lib/libgsdi_exp.so \
     vendor/semc/satsuma/proprietary/lib/libgstk_exp.so:system/lib/libgstk_exp.so \
+    vendor/semc/satsuma/proprietary/lib/libidl.so:system/lib/libidl.so \
     vendor/semc/satsuma/proprietary/lib/libmmgsdilib.so:system/lib/libmmgsdilib.so \
+    vendor/semc/satsuma/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/semc/satsuma/proprietary/lib/libnv.so:system/lib/libnv.so \
     vendor/semc/satsuma/proprietary/lib/liboem_rapi.so:system/lib/liboem_rapi.so \
     vendor/semc/satsuma/proprietary/lib/liboncrpc.so:system/lib/liboncrpc.so \
     vendor/semc/satsuma/proprietary/lib/libpbmlib.so:system/lib/libpbmlib.so \
+    vendor/semc/satsuma/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/semc/satsuma/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/semc/satsuma/proprietary/lib/libqueue.so:system/lib/libqueue.so \
-    vendor/semc/satsuma/proprietary/lib/libuim.so:system/lib/libuim.so \
+    vendor/semc/satsuma/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/semc/satsuma/proprietary/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
+    vendor/semc/satsuma/proprietary/lib/libuim.so:system/lib/libuim.so \
     vendor/semc/satsuma/proprietary/lib/libwms.so:system/lib/libwms.so \
     vendor/semc/satsuma/proprietary/lib/libwmsts.so:system/lib/libwmsts.so \
-    vendor/semc/satsuma/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
-    vendor/semc/satsuma/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
-    vendor/semc/satsuma/proprietary/lib/libidl.so:system/lib/libidl.so \
-    vendor/semc/satsuma/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
-    vendor/semc/satsuma/proprietary/lib/libqdp.so:system/lib/libqdp.so \
-    vendor/semc/satsuma/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/semc/satsuma/proprietary/lib/hw/vendor-camera.semc.so:system/lib/hw/vendor-camera.semc.so \
-    vendor/semc/satsuma/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
-    vendor/semc/satsuma/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
-    vendor/semc/satsuma/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
-    vendor/semc/satsuma/proprietary/lib/libcamera_clientsemc.so:system/lib/libcamera_clientsemc.so \
     vendor/semc/satsuma/proprietary/lib/libcald_client.so:system/lib/libcald_client.so \
     vendor/semc/satsuma/proprietary/lib/libcald_debugger.so:system/lib/libcald_debugger.so \
     vendor/semc/satsuma/proprietary/lib/libcald_hal.so:system/lib/libcald_hal.so \
     vendor/semc/satsuma/proprietary/lib/libcald_imageutil.so:system/lib/libcald_imageutil.so \
     vendor/semc/satsuma/proprietary/lib/libcald_pal.so:system/lib/libcald_pal.so \
     vendor/semc/satsuma/proprietary/lib/libcald_server.so:system/lib/libcald_server.so \
-    vendor/semc/satsuma/proprietary/lib/libface.so:system/lib/libface.so \
-    vendor/semc/satsuma/proprietary/lib/libgemini.so:system/lib/libgemini.so \
+    vendor/semc/satsuma/proprietary/lib/libcamera_clientsemc.so:system/lib/libcamera_clientsemc.so \
     vendor/semc/satsuma/proprietary/lib/libcameraextensionclient.so:system/lib/libcameraextensionclient.so \
     vendor/semc/satsuma/proprietary/lib/libcameraextensionjni.so:system/lib/libcameraextensionjni.so \
     vendor/semc/satsuma/proprietary/lib/libcameraextensionservice.so:system/lib/libcameraextensionservice.so \
     vendor/semc/satsuma/proprietary/lib/libcameralight.so:system/lib/libcameralight.so \
+    vendor/semc/satsuma/proprietary/lib/libface.so:system/lib/libface.so \
+    vendor/semc/satsuma/proprietary/lib/libgemini.so:system/lib/libgemini.so \
+    vendor/semc/satsuma/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
+    vendor/semc/satsuma/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
+    vendor/semc/satsuma/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/semc/satsuma/proprietary/usr/semc/camera/APT00YP0.dat:system/usr/semc/camera/APT00YP0.dat \
     vendor/semc/satsuma/proprietary/usr/semc/camera/APT00YP0_MT9V144.dat:system/usr/semc/camera/APT00YP0_MT9V144.dat \
     vendor/semc/satsuma/proprietary/usr/semc/camera/KMO05BN0.dat:system/usr/semc/camera/KMO05BN0.dat \
@@ -73,8 +73,12 @@ PRODUCT_COPY_FILES += \
     vendor/semc/satsuma/proprietary/usr/semc/camera/STW05BN0.dat:system/usr/semc/camera/STW05BN0.dat \
     vendor/semc/satsuma/proprietary/usr/semc/camera/STW05BN0_BH6476.dat:system/usr/semc/camera/STW05BN0_BH6476.dat \
     vendor/semc/satsuma/proprietary/usr/semc/camera/STW05BN0_IMX072.dat:system/usr/semc/camera/STW05BN0_IMX072.dat \
+    vendor/semc/satsuma/proprietary/bin/nv_param_loader:system/bin/nv_param_loader \
+    vendor/semc/satsuma/proprietary/bin/nvcustomizer:system/bin/nvcustomizer \
+    vendor/semc/satsuma/proprietary/bin/nvimport:system/bin/nvimport \
     vendor/semc/satsuma/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/semc/satsuma/proprietary/bin/akmd8975:system/bin/akmd8975 \
     vendor/semc/satsuma/proprietary/bin/chargemon:system/bin/chargemon \
     vendor/semc/satsuma/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
+    vendor/semc/satsuma/proprietary/bin/cyttsp_fwloader:system/bin/cyttsp_fwloader \
     vendor/semc/satsuma/proprietary/etc/firmware/touch_satsuma_hitachi.hex:system/etc/firmware/touch_satsuma_hitachi.hex
