@@ -79,6 +79,4 @@ PRODUCT_COPY_FILES += \
     vendor/semc/coconut/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/semc/coconut/proprietary/bin/akmd8975:system/bin/akmd8975 \
     vendor/semc/coconut/proprietary/bin/chargemon:system/bin/chargemon \
-    vendor/semc/coconut/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
-    vendor/semc/coconut/proprietary/bin/cyttsp_fwloader:system/bin/cyttsp_fwloader \
-    vendor/semc/coconut/proprietary/etc/firmware/touch_coconut_tpk.hex:system/etc/firmware/touch_coconut_tpk.hex
+    vendor/semc/coconut/proprietary/lib/libmiscta.so:system/lib/libmiscta.so
