@@ -47,7 +47,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/hallon/proprietary/lib/libuim.so:system/lib/libuim.so \
     vendor/semc/hallon/proprietary/lib/libwms.so:system/lib/libwms.so \
     vendor/semc/hallon/proprietary/lib/libwmsts.so:system/lib/libwmsts.so \
-    vendor/semc/hallon/proprietary/lib/hw/vendor-camera.semc.so:system/lib/hw/vendor-camera.semc.so \
+    vendor/semc/hallon/proprietary/lib/hw/camera.vendor.semc.so:system/lib/hw/camera.vendor.semc.so \
     vendor/semc/hallon/proprietary/lib/libcald_client.so:system/lib/libcald_client.so \
     vendor/semc/hallon/proprietary/lib/libcald_debugger.so:system/lib/libcald_debugger.so \
     vendor/semc/hallon/proprietary/lib/libcald_hal.so:system/lib/libcald_hal.so \

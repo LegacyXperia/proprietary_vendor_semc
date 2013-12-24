@@ -47,7 +47,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/smultron/proprietary/lib/libuim.so:system/lib/libuim.so \
     vendor/semc/smultron/proprietary/lib/libwms.so:system/lib/libwms.so \
     vendor/semc/smultron/proprietary/lib/libwmsts.so:system/lib/libwmsts.so \
-    vendor/semc/smultron/proprietary/lib/hw/vendor-camera.semc.so:system/lib/hw/vendor-camera.semc.so \
+    vendor/semc/smultron/proprietary/lib/hw/camera.vendor.semc.so:system/lib/hw/camera.vendor.semc.so \
     vendor/semc/smultron/proprietary/lib/libcald_client.so:system/lib/libcald_client.so \
     vendor/semc/smultron/proprietary/lib/libcald_debugger.so:system/lib/libcald_debugger.so \
     vendor/semc/smultron/proprietary/lib/libcald_hal.so:system/lib/libcald_hal.so \
