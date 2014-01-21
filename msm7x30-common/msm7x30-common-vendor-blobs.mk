@@ -34,4 +34,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/msm7x30-common/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/semc/msm7x30-common/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
     vendor/semc/msm7x30-common/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
-    vendor/semc/msm7x30-common/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so
+    vendor/semc/msm7x30-common/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
+    vendor/semc/msm7x30-common/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
+    vendor/semc/msm7x30-common/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so
