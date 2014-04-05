@@ -26,6 +26,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/msm7x30-common/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
     vendor/semc/msm7x30-common/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
     vendor/semc/msm7x30-common/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
+    vendor/semc/msm7x30-common/proprietary/lib/libCB.so:system/lib/libCB.so \
     vendor/semc/msm7x30-common/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/semc/msm7x30-common/proprietary/lib/libllvm-arm.so:system/lib/libllvm-arm.so \
     vendor/semc/msm7x30-common/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
