@@ -47,7 +47,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/zeus/proprietary/lib/libuim.so:system/lib/libuim.so \
     vendor/semc/zeus/proprietary/lib/libwms.so:system/lib/libwms.so \
     vendor/semc/zeus/proprietary/lib/libwmsts.so:system/lib/libwmsts.so \
-    vendor/semc/zeus/proprietary/lib/hw/vendor-camera.semc.so:system/lib/hw/vendor-camera.semc.so \
+    vendor/semc/zeus/proprietary/lib/hw/camera.vendor.semc.so:system/lib/hw/camera.vendor.semc.so \
     vendor/semc/zeus/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/semc/zeus/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/semc/zeus/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \

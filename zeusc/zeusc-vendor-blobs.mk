@@ -47,7 +47,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/zeusc/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/semc/zeusc/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/semc/zeusc/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/semc/zeusc/proprietary/lib/hw/vendor-camera.semc.so:system/lib/hw/vendor-camera.semc.so \
+    vendor/semc/zeusc/proprietary/lib/hw/camera.vendor.semc.so:system/lib/hw/camera.vendor.semc.so \
     vendor/semc/zeusc/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/semc/zeusc/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/semc/zeusc/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
