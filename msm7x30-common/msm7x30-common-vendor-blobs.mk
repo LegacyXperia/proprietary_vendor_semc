@@ -44,4 +44,5 @@ PRODUCT_COPY_FILES += \
     vendor/semc/msm7x30-common/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/semc/msm7x30-common/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
     vendor/semc/msm7x30-common/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
+    vendor/semc/msm7x30-common/proprietary/lib/libOmxMp3Dec.so:system/lib/libOmxMp3Dec.so \
     vendor/semc/msm7x30-common/proprietary/lib/libSHIMDivxDrm.so:system/lib/libSHIMDivxDrm.so
