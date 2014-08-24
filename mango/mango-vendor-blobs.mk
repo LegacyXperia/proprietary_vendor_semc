@@ -55,9 +55,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/mango/proprietary/lib/libcald_pal.so:system/lib/libcald_pal.so \
     vendor/semc/mango/proprietary/lib/libcald_server.so:system/lib/libcald_server.so \
     vendor/semc/mango/proprietary/lib/libcamera_clientsemc.so:system/lib/libcamera_clientsemc.so \
-    vendor/semc/mango/proprietary/lib/libcameraextensionclient.so:system/lib/libcameraextensionclient.so \
-    vendor/semc/mango/proprietary/lib/libcameraextensionjni.so:system/lib/libcameraextensionjni.so \
-    vendor/semc/mango/proprietary/lib/libcameraextensionservice.so:system/lib/libcameraextensionservice.so \
     vendor/semc/mango/proprietary/lib/libcameralight.so:system/lib/libcameralight.so \
     vendor/semc/mango/proprietary/lib/libface.so:system/lib/libface.so \
     vendor/semc/mango/proprietary/lib/libgemini.so:system/lib/libgemini.so \

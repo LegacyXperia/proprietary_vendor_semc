@@ -55,9 +55,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/hallon/proprietary/lib/libcald_pal.so:system/lib/libcald_pal.so \
     vendor/semc/hallon/proprietary/lib/libcald_server.so:system/lib/libcald_server.so \
     vendor/semc/hallon/proprietary/lib/libcamera_clientsemc.so:system/lib/libcamera_clientsemc.so \
-    vendor/semc/hallon/proprietary/lib/libcameraextensionclient.so:system/lib/libcameraextensionclient.so \
-    vendor/semc/hallon/proprietary/lib/libcameraextensionjni.so:system/lib/libcameraextensionjni.so \
-    vendor/semc/hallon/proprietary/lib/libcameraextensionservice.so:system/lib/libcameraextensionservice.so \
     vendor/semc/hallon/proprietary/lib/libcameralight.so:system/lib/libcameralight.so \
     vendor/semc/hallon/proprietary/lib/libface.so:system/lib/libface.so \
     vendor/semc/hallon/proprietary/lib/libgemini.so:system/lib/libgemini.so \

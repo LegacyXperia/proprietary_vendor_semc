@@ -55,9 +55,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/smultron/proprietary/lib/libcald_pal.so:system/lib/libcald_pal.so \
     vendor/semc/smultron/proprietary/lib/libcald_server.so:system/lib/libcald_server.so \
     vendor/semc/smultron/proprietary/lib/libcamera_clientsemc.so:system/lib/libcamera_clientsemc.so \
-    vendor/semc/smultron/proprietary/lib/libcameraextensionclient.so:system/lib/libcameraextensionclient.so \
-    vendor/semc/smultron/proprietary/lib/libcameraextensionjni.so:system/lib/libcameraextensionjni.so \
-    vendor/semc/smultron/proprietary/lib/libcameraextensionservice.so:system/lib/libcameraextensionservice.so \
     vendor/semc/smultron/proprietary/lib/libcameralight.so:system/lib/libcameralight.so \
     vendor/semc/smultron/proprietary/lib/libface.so:system/lib/libface.so \
     vendor/semc/smultron/proprietary/lib/libgemini.so:system/lib/libgemini.so \
