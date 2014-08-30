@@ -82,4 +82,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/iyokan/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/semc/iyokan/proprietary/bin/akmd8975:system/bin/akmd8975 \
     vendor/semc/iyokan/proprietary/bin/chargemon:system/bin/chargemon \
-    vendor/semc/iyokan/proprietary/lib/libmiscta.so:system/lib/libmiscta.so
+    vendor/semc/iyokan/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
+    vendor/semc/iyokan/proprietary/bin/cyttsp_fwloader:system/bin/cyttsp_fwloader \
+    vendor/semc/iyokan/proprietary/etc/firmware/touch_iyokan_ttsp.hex:system/etc/firmware/touch_iyokan_ttsp.hex

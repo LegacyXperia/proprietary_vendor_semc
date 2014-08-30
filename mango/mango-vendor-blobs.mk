@@ -76,4 +76,9 @@ PRODUCT_COPY_FILES += \
     vendor/semc/mango/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/semc/mango/proprietary/bin/akmd8975:system/bin/akmd8975 \
     vendor/semc/mango/proprietary/bin/chargemon:system/bin/chargemon \
-    vendor/semc/mango/proprietary/lib/libmiscta.so:system/lib/libmiscta.so
+    vendor/semc/mango/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
+    vendor/semc/mango/proprietary/bin/cyttsp_fwloader:system/bin/cyttsp_fwloader \
+    vendor/semc/mango/proprietary/etc/firmware/touch_mango_sony_type1.hex:system/etc/firmware/touch_mango_sony_type1.hex \
+    vendor/semc/mango/proprietary/etc/firmware/touch_mango_sony_type2.hex:system/etc/firmware/touch_mango_sony_type2.hex \
+    vendor/semc/mango/proprietary/etc/firmware/touch_mango_seiko.hex:system/etc/firmware/touch_mango_seiko.hex \
+    vendor/semc/mango/proprietary/etc/firmware/touch_mango_hitachi.hex:system/etc/firmware/touch_mango_hitachi.hex

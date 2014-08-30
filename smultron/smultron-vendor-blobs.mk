@@ -76,4 +76,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/smultron/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/semc/smultron/proprietary/bin/akmd8975:system/bin/akmd8975 \
     vendor/semc/smultron/proprietary/bin/chargemon:system/bin/chargemon \
-    vendor/semc/smultron/proprietary/lib/libmiscta.so:system/lib/libmiscta.so
+    vendor/semc/smultron/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
+    vendor/semc/smultron/proprietary/bin/cyttsp_fwloader:system/bin/cyttsp_fwloader \
+    vendor/semc/smultron/proprietary/etc/firmware/touch_smultron_sony.hex:system/etc/firmware/touch_smultron_sony.hex
