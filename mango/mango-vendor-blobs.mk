@@ -81,4 +81,5 @@ PRODUCT_COPY_FILES += \
     vendor/semc/mango/proprietary/etc/firmware/touch_mango_sony_type1.hex:system/etc/firmware/touch_mango_sony_type1.hex \
     vendor/semc/mango/proprietary/etc/firmware/touch_mango_sony_type2.hex:system/etc/firmware/touch_mango_sony_type2.hex \
     vendor/semc/mango/proprietary/etc/firmware/touch_mango_seiko.hex:system/etc/firmware/touch_mango_seiko.hex \
-    vendor/semc/mango/proprietary/etc/firmware/touch_mango_hitachi.hex:system/etc/firmware/touch_mango_hitachi.hex
+    vendor/semc/mango/proprietary/etc/firmware/touch_mango_hitachi.hex:system/etc/firmware/touch_mango_hitachi.hex \
+    vendor/semc/mango/proprietary/etc/firmware/touch_satsuma_hitachi.hex:system/etc/firmware/touch_satsuma_hitachi.hex
