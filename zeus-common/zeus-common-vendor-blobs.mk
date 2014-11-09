@@ -16,4 +16,4 @@
 
 PRODUCT_COPY_FILES += \
     vendor/semc/zeus-common/proprietary/vendor/firmware/bcm4329.hcd:system/vendor/firmware/bcm4329.hcd \
-    vendor/semc/zeus-common/proprietary/vendor/firmware/nvram.txt:system/vendor/firmware/nvram.txt
+    vendor/semc/zeus-common/proprietary/etc/wifi/bcmdhd.cal:system/etc/wifi/bcmdhd.cal
