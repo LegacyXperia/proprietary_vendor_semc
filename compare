@@ -1,7 +1,0 @@
-#!/bin/bash
-for file in nvcustomizer nvimport nv_param_loader; do
-   echo --Testing ${file}
-    for device in coconut haida hallon iyokan mango satsuma smultron urushi; do
-        grep -Rl ${file} ${device} | xargs -I'{}' sed -i '/'${file}'/d' '{}'
-    done
-done
