@@ -38,7 +38,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/anzu/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/semc/anzu/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/semc/anzu/proprietary/lib/libqueue.so:system/lib/libqueue.so \
-    vendor/semc/anzu/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/semc/anzu/proprietary/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
     vendor/semc/anzu/proprietary/lib/libuim.so:system/lib/libuim.so \
     vendor/semc/anzu/proprietary/lib/libwms.so:system/lib/libwms.so \
