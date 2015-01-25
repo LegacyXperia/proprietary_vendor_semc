@@ -38,7 +38,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/phoenix/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/semc/phoenix/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/semc/phoenix/proprietary/lib/libqueue.so:system/lib/libqueue.so \
-    vendor/semc/phoenix/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/semc/phoenix/proprietary/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
     vendor/semc/phoenix/proprietary/lib/libuim.so:system/lib/libuim.so \
     vendor/semc/phoenix/proprietary/lib/libwms.so:system/lib/libwms.so \

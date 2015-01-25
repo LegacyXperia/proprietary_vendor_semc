@@ -38,7 +38,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/coconut/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/semc/coconut/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/semc/coconut/proprietary/lib/libqueue.so:system/lib/libqueue.so \
-    vendor/semc/coconut/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/semc/coconut/proprietary/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
     vendor/semc/coconut/proprietary/lib/libuim.so:system/lib/libuim.so \
     vendor/semc/coconut/proprietary/lib/libwms.so:system/lib/libwms.so \
