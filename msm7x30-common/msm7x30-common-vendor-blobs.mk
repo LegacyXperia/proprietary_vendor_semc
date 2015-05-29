@@ -49,4 +49,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/msm7x30-common/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/semc/msm7x30-common/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
     vendor/semc/msm7x30-common/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
-    vendor/semc/msm7x30-common/proprietary/lib/libSHIMDivxDrm.so:system/lib/libSHIMDivxDrm.so
+    vendor/semc/msm7x30-common/proprietary/lib/libSHIMDivxDrm.so:system/lib/libSHIMDivxDrm.so \
+    vendor/semc/msm7x30-common/proprietary/bin/chargemon:system/bin/chargemon \
+    vendor/semc/msm7x30-common/proprietary/lib/libmiscta.so:system/lib/libmiscta.so
