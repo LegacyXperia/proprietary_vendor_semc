@@ -43,6 +43,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/msm7x30-common/proprietary/vendor/lib/egl/libGLESv2S3D_adreno.so:system/vendor/lib/egl/libGLESv2S3D_adreno.so \
     vendor/semc/msm7x30-common/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/semc/msm7x30-common/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
+    vendor/semc/msm7x30-common/proprietary/bin/radish:system/bin/radish \
     vendor/semc/msm7x30-common/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
     vendor/semc/msm7x30-common/proprietary/lib/libExtendedExtractor.so:system/lib/libExtendedExtractor.so \
     vendor/semc/msm7x30-common/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
